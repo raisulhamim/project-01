@@ -13,7 +13,7 @@
 }
 .box{
     display: flex;
-    align-items: center;
+    
    
 }
 ul,ol{
@@ -30,7 +30,10 @@ nav{
      background: #fae3b6;
       padding: 44px 0px;
 }
-
+nav .box{
+    display: flex;
+    align-items: center;
+}
 .logo{
     width: 25%;
 }
@@ -94,5 +97,56 @@ li::after{
 }
 li:hover::after{
     width: 100%;
+}
+.contain{
+    width: 50%;
+    
+}
+.banner{
+    width: 50%;
+}
+.banner-part{
+    background: #fae3b6;
+    padding-top: 117px;
+    padding-bottom: 102px;
+}
+.banner-part h1{
+    font-size: 64px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    width: 538px;
+    font-weight: 600;
+    
+}
+.banner-part p{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    width: 531px;
+    font-weight: 400;
+    padding-top: 38px;
+    padding-bottom: 76px;
+    
+    
+}
+.banner-part a{
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 25px 91px;
+    border-radius: 10px; 
+    transition: .4s;   
+}
+.banner-part a:hover{
+    background: #d3a344;
+    color: black;
+     border-color: rgba(175, 10, 10, 0.3);
+    box-shadow: 1px 8px 9px -4px rgba(154, 8, 8, 0.15);
+-webkit-box-shadow: 1px 8px 9px -4px rgba(150, 5, 5, 0.15);
+-moz-box-shadow: 1px 8px 9px -4px rgba(51, 3, 3, 0.15);
+
 }
 
