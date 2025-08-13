@@ -1,0 +1,98 @@
+/* ---------------------------
+          common css start
+--------------------------------*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1290px;
+    margin: 0 auto;
+   
+}
+.box{
+    display: flex;
+    align-items: center;
+   
+}
+ul,ol{
+    list-style: none;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+/* ------------------------------------------------
+                common css end
+-------------------------------------------------- */
+nav{
+     background: #fae3b6;
+      padding: 44px 0px;
+}
+
+.logo{
+    width: 25%;
+}
+.manu{
+    width: 60%;
+}
+
+.manu ul{
+    display: flex;
+    list-style: none;
+    column-gap: 59px;
+}
+.manu ul li{
+    font-size: 24px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+.button{
+    width: 25%;
+    text-align: right;
+}
+.button a:first-child{
+    margin-right: 5px;
+}
+.button a{
+    background: #fdbb57;
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    border-radius: 10px;
+    display: inline-block;
+    transition: .5s;
+    border: 1px solid transparent;
+
+
+}
+.button a:hover{
+    background: #fae3b6;
+    border-color: rgba(0,0,0,0.05);
+    box-shadow: 1px 8px 9px -4px rgba(0,0,0,0.15);
+-webkit-box-shadow: 1px 8px 9px -4px rgba(0,0,0,0.15);
+-moz-box-shadow: 1px 8px 9px -4px rgba(0,0,0,0.15);
+}
+li{
+    color: #fdbb57;
+    position: relative;
+}
+li::after{
+    width: 0;
+    height: 2px;
+    background: #fdbb57;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    content: "";
+    transition: .5s;
+}
+li:hover::after{
+    width: 100%;
+}
+
