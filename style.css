@@ -149,4 +149,65 @@ li:hover::after{
 -moz-box-shadow: 1px 8px 9px -4px rgba(51, 3, 3, 0.15);
 
 }
+/* --------collection part start------ */
+.product{
+    margin-top: 217px;
+    margin-bottom: 188px;
+}
+.product h2{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    font-family: "Frank Ruhl Libre", serif;
+
+}
+.product .box{
+    justify-content: space-between;
+    padding-top: 108px;
+}
+.product .element{
+    width: 349px;
+    height: 402px;
+    position: relative;
+    overflow: hidden;
+}
+.product .element img{
+    width: 100%;
+    height: 100%;
+}
+.product .overly{
+    width: 100%;
+    height: 100%;
+    background:transparent;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    border-radius: 20px;
+    transition: .5s;
+
+}
+.product .element:hover .overly{
+       left: 0;
+}
+ .product .element .overly a{
+    background: white;
+    padding: 9px 108px;
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    position: absolute;
+    top: 283px;
+    left: 16px;
+
+ }
+ .backimage1{
+    margin-left: 89%;
+    margin-top: -10%;
+
+
+/* --------collection part end------ */
+}
 
