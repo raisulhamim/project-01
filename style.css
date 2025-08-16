@@ -209,3 +209,135 @@ li:hover::after{
 
  }
 /* --------collection part end------ */ 
+
+/* --------fashion part start------ */
+.fashion .text{
+    width: 50%;
+}
+.fashion .image{
+    width: 50%;
+}
+.fashion .image img{
+    width: 100%;
+}
+.fashion .text h2{
+    font-size: 64px;
+    font-family: "Frank Ruhl Libre", serif;
+    font-weight: 700;
+    color: black;
+    width: 437px;
+    height: 102px;
+}
+.fashion .text p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+    width: 443px;
+    height: 186px;
+    padding-top: 100px;
+}
+.fashion .box{
+    align-items: center;
+}
+.fashion .text{
+    padding-left: 35px;
+}
+.backbox{
+    width: 780px;
+    height: 280px;
+    background: #feecc8;
+    border-radius: 20px;
+    display: flex;
+    margin-left: 428px;
+    margin-top: -75px;
+    
+}
+.one{
+    width: 257px;
+   
+}
+.one  h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: black;
+    padding-left: 80px;
+    padding-top: 72px;
+}
+.one  p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding-left: 89px;
+    padding-top: 10px
+}
+.line{
+    width: 3px;
+    height: 200px;
+    background: black;
+    margin-top: 40px;
+    opacity: 0.6;
+}
+.two{
+    width: 265px;
+   
+}
+.two  h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: black;
+    padding-left:50px;
+    padding-top: 72px;
+}
+.two  p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding-left: 50px;
+    padding-top: 10px
+}
+.three{
+    width: 252px;
+   
+}
+.three  h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: black;
+    padding-left:40px;
+    padding-top: 72px;
+}
+.three  p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    padding-left: 35px;
+    padding-top: 10px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------fashion part end------ */ 
+
+
