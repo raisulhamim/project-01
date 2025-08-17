@@ -319,25 +319,136 @@ li:hover::after{
     color: black;
     padding-left: 35px;
     padding-top: 10px
+
+}
+.dotpoint img{
+    margin-left: 160px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* --------fashion part end------ */ 
+.review{
+    background: #CFA485;
+}
+
+.review .box .part1 h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: white;
+    width: 437px;
+    height: 162px;
+    margin-top: 36px;
+    margin-left: 50px;
+
+
+}
+.review .box .part1 p{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: white;
+    width: 437px;
+    height: 270px;
+    margin-top: 36px;
+    margin-left: 50px;
+
+
+}
+.review .part1 a{
+    display: inline-block;
+    background: black;
+    color: white;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    padding: 25px 91px;
+    border-radius: 10px;
+    margin-bottom: 191px;
+    margin-left: 50px;
+    margin-top: 36px; 
+    transition: .4s;    
+    border: 1px solid transparent;
+}
+.review .part1 a:hover{
+    background: #f9a601;
+    border-color: rgba(0,0,0,0.05);
+    box-shadow: 1px 8px 9px -4px rgba(0,0,0,0.15);
+-webkit-box-shadow: 1px 8px 9px -4px rgba(0,0,0,0.15);
+-moz-box-shadow: 1px 8px 9px -4px rgba(0,0,0,0.15);
+}
+.part2 .image001{
+    background: white;
+    padding: 14px 22px;
+    border: 2px solid white;
+}
+.part2 .image001 h2{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+.part2 .image001 p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    opacity: 0.6;
+
+}
+.part2 .image001 h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-left: 125px;
+    margin-top: -37px;
+    
+
+}
+.part2 .part001{
+    margin-left: 31px;
+    margin-top: 56px;
+
+}
+.part2{
+    display: flex;
+}
+.part2 .image002{
+    background: white;
+    padding: 14px 22px;
+    border: 2px solid white;
+}
+.part2 .image002 h2{
+    font-size: 22px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    color: black;
+
+}
+.part2 .image002 p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    opacity: 0.6;
+
+}
+.part2 .image002 h3{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: black;
+    margin-left: 125px;
+    margin-top: -37px;
+    
+
+}
+.part2 .part002{
+    margin-left: 31px;
+    margin-top: 56px;
+
+}
+
 
 
