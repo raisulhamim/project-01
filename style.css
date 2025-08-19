@@ -380,7 +380,9 @@ li:hover::after{
     background: white;
     padding: 14px 22px;
     border: 2px solid white;
+    
 }
+
 .part2 .image001 h2{
     font-size: 22px;
     font-family: "Poppins", sans-serif;
@@ -439,7 +441,7 @@ li:hover::after{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     color: black;
-    margin-left: 125px;
+     margin-left: 125px;
     margin-top: -37px;
     
 
@@ -449,6 +451,52 @@ li:hover::after{
     margin-top: 56px;
 
 }
+
+.image1{
+    position: relative;
+    
+    
+    
+}
+.image001{
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+    /* visibility: hidden; */
+    transition: .5s;
+    opacity: 0;
+
+}
+.image1:hover .image001{
+    bottom: -119px;
+    
+    opacity: 1;
+}
+.image2{
+    position: relative;
+    
+    
+    
+}
+.image002{
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    box-sizing: border-box;
+    width: 100%;
+   
+    transition: .5s;
+    opacity: 0;
+
+}
+.image2:hover .image002{
+    bottom: -119px;
+    
+    opacity: 1;
+}
+
 
 
 
